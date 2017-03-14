@@ -1,0 +1,42 @@
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+}
+.form-style{
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #f3eaff;
+    width: 500px;
+    height: 100px;
+    padding: 50px;
+    margin: 0 auto;
+}
+.font-form{
+    width: 70px;
+    display: inline-block;
+}
+.field{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.button:hover{
+    background: #e6efff;
+}
+.field-type{
+    display: none;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 12px;
+
+}

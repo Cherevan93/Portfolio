@@ -1,0 +1,17 @@
+.wrapper{
+    width: 35%;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+IMG{
+    width: 50%;
+    height: auto;
+}
+.pic{
+    text-align: center;
+}
+BODY{
+    background-color: lightgrey;
+}

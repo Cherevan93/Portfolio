@@ -1,0 +1,36 @@
+.menu{
+    position: absolute;
+    z-index: 1;
+}
+.tab{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #0000b3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+}
+.tab:hover{
+    background: #e4e5ff;
+}
+.active-tab{
+    background: linear-gradient(to top, white, #0000FF);
+    border-bottom: 2px solid white;
+    color: white;
+}
+.active-tab:hover{
+    background: linear-gradient(to top, white, #0000FF);
+}
+.paragraph-two{
+    display: none;
+}
+.paragraph-three{
+    display: none;
+}
+.main-text{
+    border: 2px solid #0000b3;
+    padding: 20px 50px;
+    width: 700px;
+    position: absolute;
+    top: 48px;
+}

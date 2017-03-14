@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        TABLE {
+            border-collapse: collapse; /* Убираем двойные границы между ячейками */
+            background: #fff; /* Цвет фона таблицы */
+            border: 4px solid #000; /* Рамка вокруг таблицы */
+        }
+
+        TH {
+            width: 80px;
+            height: 30px;
+            padding: 5px; /* Поля вокруг текста */
+            border: 4px solid #000; /* Рамка вокруг ячеек */
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th colspan="2"></th><th colspan="2"></th><th colspan="2" style="background-color: yellow"></th>
+    </tr>
+    <tr>
+        <th></th><th colspan="3" rowspan="2" style="background-color: red"></th><th colspan="2" style="background-color: yellow"></th>
+    </tr>
+    <tr>
+        <th rowspan="2"></th><th></th><th></th>
+    </tr>
+    <tr>
+        <th colspan="2" rowspan="2" style="background-color: black"><th></th></th><th colspan="2"></th>
+    </tr>
+    <tr>
+        <th rowspan="3" style="background-color: yellow"></th><th></th><th colspan="2" rowspan="2" style="background-color: blue"></th>
+    </tr>
+    <tr>
+        <th colspan="2" rowspan="2"></th><th style="background-color: black"></th>
+    </tr>
+    <tr>
+        <th colspan="3"></th>
+    </tr>
+</table>
+</body>
+</html>
